@@ -1,0 +1,703 @@
+#fixednav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#worksection{
+    background-color: #eaeaea;
+}
+#footerDiv{
+    text-align: center;
+    font-size: 14px;
+    padding: 50px 20px;
+    background-color: #eaeaea; 
+}   
+#Top{
+    margin: 30px 250px;
+}
+.pTitle, .pDescription, .workDescription, .workInternalTitle, .newsTitle{
+    text-align: center;
+}
+.workDescription{
+    padding: 5px;
+}
+.workInternalTitle{
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%);
+    padding: 10px;
+    background-color: brown;
+    color: yellow;
+} 
+.workInternalDescription{ 
+    padding: 15px 20px;
+    margin: 20px;
+}
+hr{
+    border: 0.50px solid yellow;
+
+}
+input[type="button"]{
+    padding: 5px 15px;
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 5000000000000000000px;
+    margin-left: 7in;
+}
+.workImageDiv{
+    margin: 0px auto;
+    width: 250px;
+}
+
+
+
+.Button1{
+    margin: 0px auto;
+    width: 45%;
+    background-color: green;
+    color:yellow;
+    margin-left: 2in;
+}
+.Button1Pricing {
+    margin: 0px auto;
+    width: 40px;
+    border: inset;
+}
+.Button1works{
+    margin: 0 auto;
+    width: 145px;
+}
+#pricingDescription{
+    margin: 50px 250px;
+}
+iframe{
+    margin: 10px 0px 10px 20px;
+    border-radius: 20px;
+}
+
+.button22{
+    align-content: center;
+    margin-left: 8px;
+    
+}
+.userStyles{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 1px solid #ba68c8;
+    border-radius: 100px;
+}
+#foundersection{
+    margin: 50px 250px;
+}
+
+#query1InternalStyle{
+    margin: 0 auto;
+    width: 550px;
+}
+#query1 {
+    padding: 20px 100px;
+    border: firebrick;
+    border-radius: 50000px;
+}
+/*mobile mode */
+@media only screen and (min-width: 320px){
+    body{
+        margin: 0px;
+    }
+    #Top{
+        margin: 30px 2px;
+    }
+    #TopFlex{
+        display: flex;
+        flex-direction: column;
+    }
+    #content{
+        margin: 0px 10px 20px 10px;
+        text-align: justify;
+        line-height: 1.5;
+    }
+    .introGrid{
+        display: flex;
+        flex-direction: column;
+    }
+    .intro{
+        padding: 15px;
+        margin: 10px 10px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    }
+    .workTitle{
+        text-align: center;
+        padding: 10px;
+        color: #000;
+        width: 150px;
+        border-radius: 55px;
+        margin: 30px auto 0px auto;
+        font-size: 30px;
+    }
+    .query1Title {
+        text-align: center;
+        padding: 10px;
+        color: #000;
+        width: 150px;
+        border-radius: 55px;
+        margin: 30px auto 0px auto;
+        font-size: 30px;}
+        .founderc{
+            text-align: center;
+            padding: 10px;
+            color: #000;
+            width: 150px;
+            border-radius: 55px;
+            margin: 30px auto 0px auto;
+            font-size: 30px;}
+            .videosTitle{
+                text-align: center;
+                padding: 10px;
+                color: #000;
+                width: 150px;
+                border-radius: 55px;
+                margin: 30px auto 0px auto;
+                font-size: 30px;
+            }
+            .pricingTitle{
+                text-align: center;
+                padding: 10px;
+                color: #000;
+                width: 150px;
+                border-radius: 55px;
+                margin: 30px auto 0px auto;
+                font-size: 30px;
+            }
+
+    #worksection {
+        display: flex;
+        flex-direction: column;
+    }
+    .workInternalDescription {
+        padding: 5px 20px;
+        margin: 0px 20px;
+    }
+    input[type="button"] {
+        padding: 5.5px 15px;
+        background-color: yellow;
+        color: black;
+        border-radius: 5000000000000px;
+        margin-bottom: 10px;
+        margin-left: 1in;
+        
+    }
+    #pricingDescription {
+        margin: 0px 15px;
+    }
+    #foundersection {
+        margin: 0px;
+    }
+    
+    iframe{
+        margin: 10px auto 10px auto;
+        border-radius: 10px;
+        width: 250px;
+        height: 200px;
+    }
+    .work{
+        width: unset;
+    }
+    #query1ExternalStyle {
+        border-radius: 0px;
+        background-color: #eaeaea;
+        padding: 80px 0px;
+    }
+    
+    
+    
+    #query1InternalStyle {
+        margin: 0 auto;
+        width: 100px;
+        border: forestgreen;
+    }
+    #query1Submit {
+        padding: 10px 20px;
+        border: firebrick;
+        border-radius: 500000px;
+        margin-top: 20px;
+        background-color: yellow;
+        color: black;
+        font-size: 0.2in;
+    }
+    #query1 {
+        padding: 20px 20px;
+        border: 1px solid yellow;
+        color: black;
+        
+        border-radius: 5px;
+    }
+    #newsSection{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media only screen and (min-width : 768px){
+    #TopFlex{
+        display: flex;
+        flex-direction: row;
+    }
+    .introGrid{
+        display: inline-flexbox;
+        flex-direction: row;
+    }
+    #worksection {
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+    }
+    .work{
+        width: 50%;
+    }
+    #query1InternalStyle {
+        margin: 0 auto;
+        width: 320px;
+    }
+    #query1Submit {
+        padding: 20px 30px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    iframe {
+        margin: 10px auto 10px auto;
+        border-radius: 10px;
+        width: 200px;
+        height: 200px;
+    }
+    #newsSection{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media (min-width:961px) {
+    .work {
+        width: unset;
+    }
+    #worksection {
+        display: flex;
+        flex-direction: row;
+        flex-flow: nowrap;
+    }
+    #newsSection{
+        display: flex;
+        flex-direction: row;
+        margin: 10px 150px;
+    }
+    #Top {
+        margin: 10px 100px;
+    }
+    #pDescription {
+        margin: 0px 150px;
+    }
+    iframe {
+        margin: 10px auto 10px auto;
+        border-radius: 10px;
+        width: 300px;
+        height: 200px;
+    }
+    #foundersection {
+        margin: 0px 200px;
+    }
+    #query1InternalStyle {
+        margin: 0 auto;
+        width: 470px;
+    }
+    #query1 {
+        padding: 20px 100px;
+        border: 1px solid #ba68c8;
+        border-radius: 5px;
+    }
+}
+@media (min-width:1024px){
+    #imgLarge{
+        display: block;
+        margin-top: 25px;
+    }
+    #imgMedium{
+        display: none;
+    }
+}
+@media (min-width:1281px){
+    #Top {
+        margin: 10px 250px;
+    }
+    #foundersection {
+        margin: 0px 350px;
+    }
+    iframe {
+        margin: 10px auto 10px auto;
+        border-radius: 10px;
+        width: 450px;
+        height: 200px;
+    }
+    #pDescription {
+        margin: 0px 250px;
+        background-color: gold;
+    }
+
+    .alignButtonworks{
+margin-right: 700000000000000000000000000000000000in;
+    }
+    .pTitle1{
+        background-color: gold;
+    }
+    
+}#fixednav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#worksection{
+    background-color: #eaeaea;
+}
+#footerDiv{
+    text-align: center;
+    font-size: 14px;
+    padding: 50px 20px;
+    background-color: #eaeaea; 
+}   
+#Top{
+    margin: 30px 250px;
+}
+.pTitle, .pDescription, .workDescription, .workInternalTitle, .newsTitle{
+    text-align: center;
+}
+.workDescription{
+    padding: 5px;
+}
+.workInternalTitle{
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%);
+    padding: 10px;
+    background-color: brown;
+    color: yellow;
+} 
+.workInternalDescription{ 
+    padding: 15px 20px;
+    margin: 20px;
+}
+hr{
+    border: 0.50px solid yellow;
+
+}
+input[type="button"]{
+    padding: 5px 15px;
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 5000000000000000000px;
+    margin-left: 7in;
+}
+.workImageDiv{
+    margin: 0px auto;
+    width: 250px;
+}
+
+
+
+.Button1{
+    margin: 0px auto;
+    width: 45%;
+    background-color: green;
+    color:yellow;
+    margin-left: 2in;
+}
+.Button1Pricing {
+    margin: 0px auto;
+    width: 40px;
+    border: inset;
+}
+.Button1works{
+    margin: 0 auto;
+    width: 145px;
+}
+#pricingDescription{
+    margin: 50px 250px;
+}
+iframe{
+    margin: 10px 0px 10px 20px;
+    border-radius: 20px;
+}
+
+.button22{
+    align-content: center;
+    margin-left: 8px;
+    
+}
+.userStyles{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 1px solid #ba68c8;
+    border-radius: 100px;
+}
+#foundersection{
+    margin: 50px 250px;
+}
+
+#query1InternalStyle{
+    margin: 0 auto;
+    width: 550px;
+}
+#query1 {
+    padding: 20px 100px;
+    border: firebrick;
+    border-radius: 50000px;
+}
+/*mobile mode */
+@media only screen and (min-width: 320px){
+    body{
+        margin: 0px;
+    }
+    #Top{
+        margin: 30px 2px;
+    }
+    #TopFlex{
+        display: flex;
+        flex-direction: column;
+    }
+    #content{
+        margin: 0px 10px 20px 10px;
+        text-align: justify;
+        line-height: 1.5;
+    }
+    .introGrid{
+        display: flex;
+        flex-direction: column;
+    }
+    .intro{
+        padding: 15px;
+        margin: 10px 10px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    }
+    .workTitle{
+        text-align: center;
+        padding: 10px;
+        color: #000;
+        width: 150px;
+        border-radius: 55px;
+        margin: 30px auto 0px auto;
+        font-size: 30px;
+    }
+    .query1Title {
+        text-align: center;
+        padding: 10px;
+        color: #000;
+        width: 150px;
+        border-radius: 55px;
+        margin: 30px auto 0px auto;
+        font-size: 30px;}
+        .founderc{
+            text-align: center;
+            padding: 10px;
+            color: #000;
+            width: 150px;
+            border-radius: 55px;
+            margin: 30px auto 0px auto;
+            font-size: 30px;}
+            .videosTitle{
+                text-align: center;
+                padding: 10px;
+                color: #000;
+                width: 150px;
+                border-radius: 55px;
+                margin: 30px auto 0px auto;
+                font-size: 30px;
+            }
+            .pricingTitle{
+                text-align: center;
+                padding: 10px;
+                color: #000;
+                width: 150px;
+                border-radius: 55px;
+                margin: 30px auto 0px auto;
+                font-size: 30px;
+            }
+
+    #worksection {
+        display: flex;
+        flex-direction: column;
+    }
+    .workInternalDescription {
+        padding: 5px 20px;
+        margin: 0px 20px;
+    }
+    input[type="button"] {
+        padding: 5.5px 15px;
+        background-color: yellow;
+        color: black;
+        border-radius: 5000000000000px;
+        margin-bottom: 10px;
+        margin-left: 1in;
+        
+    }
+    #pricingDescription {
+        margin: 0px 15px;
+    }
+    #foundersection {
+        margin: 0px;
+    }
+    
+    iframe{
+        margin: 10px auto 10px auto;
+        border-radius: 10px;
+        width: 250px;
+        height: 200px;
+    }
+    .work{
+        width: unset;
+    }
+    #query1ExternalStyle {
+        border-radius: 0px;
+        background-color: #eaeaea;
+        padding: 80px 0px;
+    }
+    
+    
+    
+    #query1InternalStyle {
+        margin: 0 auto;
+        width: 100px;
+        border: forestgreen;
+    }
+    #query1Submit {
+        padding: 10px 20px;
+        border: firebrick;
+        border-radius: 500000px;
+        margin-top: 20px;
+        background-color: yellow;
+        color: black;
+        font-size: 0.2in;
+    }
+    #query1 {
+        padding: 20px 20px;
+        border: 1px solid yellow;
+        color: black;
+        
+        border-radius: 5px;
+    }
+    #newsSection{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media only screen and (min-width : 768px){
+    #TopFlex{
+        display: flex;
+        flex-direction: row;
+    }
+    .introGrid{
+        display: inline-flexbox;
+        flex-direction: row;
+    }
+    #worksection {
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+    }
+    .work{
+        width: 50%;
+    }
+    #query1InternalStyle {
+        margin: 0 auto;
+        width: 320px;
+    }
+    #query1Submit {
+        padding: 20px 30px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    iframe {
+        margin: 10px auto 10px auto;
+        border-radius: 10px;
+        width: 200px;
+        height: 200px;
+    }
+    #newsSection{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media (min-width:961px) {
+    .work {
+        width: unset;
+    }
+    #worksection {
+        display: flex;
+        flex-direction: row;
+        flex-flow: nowrap;
+    }
+    #newsSection{
+        display: flex;
+        flex-direction: row;
+        margin: 10px 150px;
+    }
+    #Top {
+        margin: 10px 100px;
+    }
+    #pDescription {
+        margin: 0px 150px;
+    }
+    iframe {
+        margin: 10px auto 10px auto;
+        border-radius: 10px;
+        width: 300px;
+        height: 200px;
+    }
+    #foundersection {
+        margin: 0px 200px;
+    }
+    #query1InternalStyle {
+        margin: 0 auto;
+        width: 470px;
+    }
+    #query1 {
+        padding: 20px 100px;
+        border: 1px solid #ba68c8;
+        border-radius: 5px;
+    }
+}
+@media (min-width:1024px){
+    #imgLarge{
+        display: block;
+        margin-top: 25px;
+    }
+    #imgMedium{
+        display: none;
+    }
+}
+@media (min-width:1281px){
+    #Top {
+        margin: 10px 250px;
+    }
+    #foundersection {
+        margin: 0px 350px;
+    }
+    iframe {
+        margin: 10px auto 10px auto;
+        border-radius: 10px;
+        width: 450px;
+        height: 200px;
+    }
+    #pDescription {
+        margin: 0px 250px;
+        background-color: gold;
+    }
+
+    .alignButtonworks{
+margin-right: 700000000000000000000000000000000000in;
+    }
+    .pTitle1{
+        background-color: gold;
+    }
+    
+}

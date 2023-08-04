@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infotech: An IT Consultancy Company</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* --- General useruserStyles --- */
+        /* Font */
+        body{
+            font-family: 'Arial', sans-serif;
+        }
+        /* -------- Navbar --------- */
+        .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+            content: "\f0c9";
+            color: black;
+        }
+        .topnav1 {
+            overflow: hidden;
+            background-color: rgb(165, 42, 48);
+            color:yellow;
+        }
+        .topnav1 a {
+            float: right;
+            display: block;
+            color: yellow;
+            text-align: center;
+            padding: 14px 30px;
+            text-decoration: double;
+            font-size: 18px;
+        } 
+        .topnav1 a:hover {
+            background-color: burlywood;
+            color: green;
+        } 
+        .topnav1 a.active {
+            background-color: black;
+            color: whitesmoke;
+        }
+        .topnav1 .icon {
+            display: list-item;
+        }
+        #footer{
+            background-color: black;
+            color: whitesmoke;
+            
+            height: 50px;
+            
+        }
+        .pTitle1{
+        background-color: goldenrod;
+    }
+    
+    .pTitle2{
+        background-color: silver;
+
+    }
+    .container{
+        background-color: springgreen;
+            }
+    .pTitle{
+        background-color: violet;
+    }
+    .pricingTitle{
+    background-color: springgreen;
+    }
+    #bd{
+        color: rgb(255, 0, 13);
+    }
+    .green{
+    background-color: springgreen;}
+    
+    #foundersec{
+        margin-left: 5.7in;
+        box-sizing: content-box;
+        border-radius: 4in;
+        display: flex;
+        
+    }
+    
+    .newsTitle{
+    background-color: brown;
+    color: yellow;
+    box-sizing: content-box;
+    box-shadow: tomato;
+    }
+    
+
+        @media screen and (max-width: 600px) {
+            .topnav1 a:not(:first-child) {
+                display: none;
+            }
+            .topnav1 a.icon {
+            float: right;
+            display: block;
+            }
+        }
+        @media screen and (max-width: 600px) {
+            .topnav1.responsive {
+                position: relative;
+            }
+            .topnav1.responsive .icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+            }
+            .topnav1.responsive a {
+            float: none;
+            display: flexbox;
+            text-align: left;
+            }
+            
+        }
+    </style>
+</head>
+<body> 
+    <div id="fixednav">
+        <div class="topnav1" id="Topnav2">
+            
+            <a href="http://localhost/phpp/savetodatabase.php" target="_blank">Contact Us</a>
+            <a href="#newssec">Media Reports</a>
+            <a href="#videos"> Videos </a>
+            <a href="#coursessec">Courses</a>
+            <a href="#workSection">Services/Projects</a>
+            <a href="#direcsec">Board Of Directors</a> 
+            <a href="./indexnew.html" class="active">Home</a>
+            <a class="navbar-brand" href="http://127.0.0.1:5500/aboutus.html">INFOTECH</a>
+            <a href="javascript:void(0);" class="icon" onclick="helloFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+    </div>
+    
+    <hr>
+    
+    <br/>
+    <br/>
+    <h1 class="newsTitle" id="coursessec"> COURSES DESIGNED FOR YOU </h1>
+    <div id="Top">
+        <div id="TopFlex"> <marquee behavior="scroll" direction="up" id="bd"><h1>FIND YOUR <mark class="green">TECH SOLUTIONS</mark><br>NOW!!!!<br> </h1></marquee>
+    <div class="introGrid">
+        <div class="intro"> 
+            
+            <h1 class="pTitle"> Internet Of Things </h1>
+            <p class="pDescription"> We provide world's best tech courses related to current emerging tech domains.</p>
+            <a href="http://127.0.0.1:5500/iot.html" target="_blank"><input type="button" value="Explore"/></a>
+    
+        </div>
+
+        <div class="intro"> 
+            
+            <h1 class="pTitle"> Block Chain </h1>
+            <p class="pDescription"> We provide world's best tech courses related to current emerging tech domains.</p>
+            <a href="http://127.0.0.1:5500/blockchain.html" target="_blank"><input type="button" value="Explore"/></a>
+        </div>
+        <div class="intro"> 
+            
+            <h1 class="pTitle"> Cyber security </h1>
+            <p class="pDescription"> We provide world's best tech courses related to current emerging tech domains.</p>
+            <a href="http://127.0.0.1:5500/ai.html" target="_blank"><input type="button" value="Explore"/></a>
+        </div>
+        
+      
+    </div>
+</div>
+
+
+    <br/>
+    <h1 class="workTitle" id="worksec"> </h1>
+    <div id="workSection">
+        <div class="work">
+            
+               
+            </div>
+            <h1 class="newsTitle" id="projectsec"> OUR SERVICES / CURRENT PROJECTS </h1>
+            <h1 class="workInternalTitle">Our Services</h1>
+            <div class="workInternalDescription">
+                <p> The IT services which we provide are designed to facilitate the users who are seeking IT consultancy services like IT advisory, IT solutions and implementations, Cloud consulting, Technological modernization and management, etc. </p>
+                <h3>These include: </h3>
+                <ul> 
+                    <li>Analytics and Insights</li>
+                    <li>Blockchain</li>
+                    <li>Cognitive Business Operations</li>
+                    <li>Cyber Security</li>
+                    <li>Enterprise Applications</li>
+                    <li>Quality Engineering</li>
+                    <li>Automation & AI</li>
+                    <li>Cloud Consulting</li>
+                    <li>IOT & Digital Engineering</li>
+                    <li>Sustainability Services</li>
+                </ul>
+                <a href="http://127.0.0.1:5500/ourservices.html" target="_blank"><input type="button" value="Read Details"/></a>
+            </div>
+        
+        </div>
+        <div class="work">
+           
+                
+            </div>
+            <h1 class="workInternalTitle">Our Projects</h1>
+            <div class="workInternalDescription">
+                <p class="workDescription"> m ipsam numquam, tempora iure dolorum officiis? Atque nam aliquam eveniet eum a quidem laudantium repellat eius debitis, error dolores nemo ipsam molestias numquam iste commodi. Ex officiis quam perferendis, non reprehenderit et itaque commodi veritatis, asperiores corrupti cum! Accusamus aperiam possimus ducimus hic obcaecati animi fugit reiciendis in impedit soluta quis vitae suscipit harum dicta eveniet est eligendi, quisquam vero incidunt officia corrupti maxime vel unde nisi. Quod et, harum eius aliquid sapiente quibusdam dignissimos, aperiam aspernatur mollitia beatae illum officia assumenda consequuntur modi doloribus nostrum sit molestiae voluptatum veritatis, quae soluta fuga reiciendis placeat. Neque impedit, possimus ex fuga dolor perferendis? Quae quod vitae quaerat, consequatur ducimus ut quasi suscipit odio hic quos dignissimos consequuntur, nihil in voluptatem quam rerum accusamus? Consequuntur est voluptates vitae porro, laborum quis aut aspernatur officia at optio magnam fugiat fugit, reprehenderit veniam labore.lestias ipsum praesentium, cum voluptate quos nesciunt neque iste eum saepe. Id, quidem ad. Odio necessitatibus sed, corporis deserunt corrupti quasi laudantium nobis nostrum iure eveniet sit voluptates, commodi nulla optio porro, ipsum blanditiis? A iusto consequatur suscipit facere facilis </p>
+                <a href="http://127.0.0.1:5500/ourprojects.html" target="_blank"><input type="button" value="Read Details"/></a>
+            </div>
+        </div>
+        
+        </div>
+       
+    </div>
+
+        </div>
+        <div>
+            <h1 class="pricingTitle"> SERVICE RATES </h1>
+            <div id="pricingDescription" class="introGrid">
+                <div class="intro"> 
+                    <h1 class="pTitle1"> Gold Pack </h1>
+                    <p class="pDescription"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et totam illum qui, commodi libero quisquam delectus nisi quidem eaque. Doloremque molestiae facilis non porro velit suscipit tenetur sunt, adipisci laborum! </p>
+                    <a href="http://127.0.0.1:5500/goldpackrate.html" target="_blank"><input type="button" value="More Info"/></a>
+                </div>
+            <div class="intro"> 
+                <h1 class="pTitle2"> Silver Pack </h1>
+                <p class="pDescription"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et totam illum qui, commodi libero quisquam delectus nisi quidem eaque. Doloremque molestiae facilis non porro velit suscipit tenetur sunt, adipisci laborum! </p>
+                <a href="http://127.0.0.1:5500/silverpackrate.html" target="_blank"><input type="button" value="More Info"/></a>
+            </div>
+           
+    </div>
+    
+    <div>
+        <h1 class="videos" id="videos" style="color:red;">
+            <center>VIDEOS REGARDING OUR COURSES </center> </h1>
+        <div style="background-color: yellow; padding: 25px;" class="introGrid">
+            <iframe src="https://www.youtube.com/embed/Fj02iTrWUx0"></iframe>
+            <iframe src="https://www.youtube.com/embed/SSo_EIwHSd4"></iframe>
+            <iframe src="https://www.youtube.com/embed/oV74Najm6Nc" ></iframe>
+            <p id="demo"></p>
+            
+        </div>
+    </div>
+      
+    <h1 class="newsTitle" id="direcsec"> OUR BOARD OF DIRECTORS </h1>
+    <div id="founderSection">
+        <div class="introGrid">
+            <div class="container">
+                <img src="A.png"  class="userStyles"> 
+                <br/> <p style="text-align: left;"> <h1>Chairman </h1></p>
+            </div>
+            <div class="container">
+                <img src="B.png"  class="userStyles">
+                <br/> <p style="text-align: left;"> <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CEO</h1> </p>
+            </div>
+            <div class="container">
+                <img src="C.png"  class="userStyles">
+                <br/> <p style="text-align: left;"> <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Founder</h1> </p>
+            </div>
+            <div class="container">
+                <img src="D.png"  class="userStyles">
+                <br/> <p style="text-align: left;"> <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chief Secretary</h1> </p>
+            </div>
+            <div class="container">
+                <img src="E.png"  class="userStyles">
+                <br/> <p style="text-align: left;"> <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manager</h1> </p>
+            </div>
+           
+        
+        </div>
+    </div>
+    </div>
+    
+    <h1 class="newsTitle" id="newssec">IN THE NEWS</h1>
+    <div id="newsSection">
+        <div class="work">
+            <div class="projectImageDiv">
+                
+            </div>
+            <h2 class="workInternalTitle"> Media Reports on company </h2>
+            <div class="workInternalDescription">
+                <p class="workDescription"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, atque beatae architecto qui ullam optio natus amet error! Commodi quisquam minima dicta impedit nobis odio temporibus nostrum libero vero soluta?m ipsam numquam, tempora iure dolorum officiis? Atque nam aliquam eveniet eum a quidem laudantium repellat eius debitis, error dolores nemo ipsam molestias numquam iste commodi. Ex officiis quam perferendis, non reprehenderit et itaque commodi veritatis, asperiores corrupti cum! Accusamus aperiam possimus ducimus hic obcaecati animi fugit reiciendis in impedit soluta quis vitae suscipit harum dicta eveniet est eligendi, quisquam vero incidunt officia corrupti maxime vel unde nisi. Quod et, harum eius aliquid sapiente quibusdam dignissimos, aperiam aspernatur mollitia beatae illum officia assumenda consequuntur modi doloribus nostrum sit molestiae voluptatum veritatis, quae soluta fuga reiciendis placeat. Neque impedit, possimus ex fuga dolor perferendis? Quae quod vitae quaerat, consequatur ducimus ut quasi suscipit odio hic quos dignissimos consequuntur, nihil in voluptatem quam rerum accusamus? Consequuntur est voluptates vitae porro, laborum quis aut aspernatur officia at optio magnam fugiat fugit, reprehenderit veniam labore.lestias ipsum praesentium, cum voluptate quos nesciunt neque iste eum saepe. Id, quidem ad. Odio necessitatibus sed, corporis deserunt corrupti quasi laudantium nobis nostrum iure eveniet sit voluptates, commodi nulla optio porro, ipsum blanditiis? A iusto consequatur suscipit facere facilis  </p>
+                <center> <a href="http://127.0.0.1:5500/mediareport1.html" target="_blank"><input type="button" value="Open In Website"/></a> </center>
+            </div>
+        </div>
+        <div class="work">
+            
+
+            </div>
+            <h2 class="workInternalTitle"> </h2>
+            <div class="workInternalDescription">
+                <p class="workDescription">  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, atque beatae architecto qui ullam optio natus amet error! Commodi quisquam minima dicta impedit nobis odio temporibus nostrum libero vero soluta?m ipsam numquam, tempora iure dolorum officiis? Atque nam aliquam eveniet eum a quidem laudantium repellat eius debitis, error dolores nemo ipsam molestias numquam iste commodi. Ex officiis quam perferendis, non reprehenderit et itaque commodi veritatis, asperiores corrupti cum! Accusamus aperiam possimus ducimus hic obcaecati animi fugit reiciendis in impedit soluta quis vitae suscipit harum dicta eveniet est eligendi, quisquam vero incidunt officia corrupti maxime vel unde nisi. Quod et, harum eius aliquid sapiente quibusdam dignissimos, aperiam aspernatur moll </p>
+                <center> <a href="http://127.0.0.1:5500/mediareport2.html" target="_blank"><input type="button" value="Open In Website"/></a> </center>
+               
+
+            
+
+
+            </div>
+        </div>
+        
+        </div>
+    </div>
+    
+    
+    <center>
+        <h1 style="color:red;">
+        OUR LOCATION
+        </h1>
+          
+        <div>
+        
+            <iframe src=
+"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.118871620954!2d77.23883161508313!3d28.656159182408427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfce26ec085ef%3A0x441e32f4fa5002fb!2sRed%20Fort!5e0!3m2!1sen!2sin!4v1630489770738!5m2!1sen!2sin"
+                    width="400"
+                    height="820"
+                    frameborder="0"
+                    style="border:0;"
+                    map.setZoom(map.getZoom() - 1);
+                   aria-modal="true"
+                    aria-hidden="true"
+            >
+            </iframe>
+            <body><button onclick="myFunction()">Alert Box</button> <button onclick="myFunction()">Google map</button>
+        </div>
+        <h1 style="color:red;">
+            PAYMENT SECTION
+            </h1>
+              
+        <div> <a href="https://rzp.io/l/oNfDl7EPG" target="_blank"><input type="button" value="Pay Now For Services/Courses"/></a></div>
+    </center>
+    <div id="footer">
+        <p> <h3>All Right Reserved&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@Copyright 2020-21&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone 0120-48-777 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fax 132@vvv.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mail at --company@gmail.com</h3> </p>
+    </div>
+    
+    
+    <script src="./script.js"> 
+   
+ 
+   function myFunction() {
+  alert("I am an alert box!");}
+function myFunction() {
+  window.open("https://www.larsentoubro.com");
+}
+
+</script>
+</body>
+</html>
